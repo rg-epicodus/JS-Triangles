@@ -10,13 +10,13 @@ $(document).ready(function () {
     var c = length3 + length1;
 
     if (a < length3 || b < length1 || c < length2) {
-      $("#output").text("You don't even triangle!")
+      $("#output").text("You don't even triangle!");
     } else if (length1 === length2 && length1 === length3) {
-      $("#output").text("Equilateral!")
+      $("#output").text("Equilateral!");
     } else if (length1 === length2 || length2 === length3 || length1 === length3) {
-      $("#output").text("Isosceles!")
+      $("#output").text("Isosceles!");
     } else if (length1 != length2 && length2 != length3 && length1 != length3) {
-      $("#output").text("Scalene!")
+      $("#output").text("Scalene!");
     }
   });
 });

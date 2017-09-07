@@ -1,4 +1,4 @@
-var Triangle = require('./../js/triangle.js').triangleModule;
+import { Triangle } from './../js/triangle.js';
 
 
 
