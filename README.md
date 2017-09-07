@@ -17,7 +17,13 @@ High Fantasy Tolkien lore.
 
 | Behavior      | Example Input         | Example Output        |
 | ------------- | ------------- | ------------- |
-|   |  |  |
+|  make an Isosceles triangle | 5,5,4 | Isosceles |
+|  make an Equilateral triangle | 5,5,5 | Equilateral |
+|  make an Scalene triangle | 1,2,3 | Scalene |
+|  make an impossible triangle | 1,2,100 | You don't even triangle! |
+
+
+
 
 
 ## Known Bugs
